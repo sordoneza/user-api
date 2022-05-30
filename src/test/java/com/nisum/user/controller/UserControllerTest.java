@@ -6,10 +6,8 @@ import com.nisum.user.exception.ApiException;
 import com.nisum.user.model.dto.PhoneDto;
 import com.nisum.user.model.dto.UserInput;
 import com.nisum.user.model.dto.UserOutput;
-import com.nisum.user.repository.UserRepo;
 import com.nisum.user.service.UserService;
 import org.hamcrest.Matchers;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,8 +16,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
-import org.springframework.test.context.event.annotation.BeforeTestClass;
-import org.springframework.test.context.event.annotation.BeforeTestMethod;
 import org.springframework.test.web.servlet.MockMvc;
 
 
