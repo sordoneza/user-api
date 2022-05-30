@@ -20,8 +20,9 @@ git clone https://github.com/sordoneza/user-api.git
 
 ### 2. Run the application
 
-The project includes the script file to generate the database once you start the application, using the following command
-it will download if not already installed maven, followed by download project dependecies, and finnally will start the application
+The project includes the script file to generate the database once you start the application, by running the application it will download maven if not already installed, followed by download project dependecies, and finnally will start the application
+
+In the project root folder run the following command, which will start the server on port 8080.
 
 ##### On Unix based systems
 ```sh
